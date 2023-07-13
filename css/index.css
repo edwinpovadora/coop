@@ -1,0 +1,184 @@
+/*
+Template Name: Insurance
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.center_h {
+background-image: url(../img/1.jpg);
+background-position: center;
+}
+.center_hm {
+background:#ffffffb0;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.center_h1ri{
+background:#ffffffb0;
+padding:40px;
+border-radius:10px 10px 0px 0px; 
+ }
+.center_h1rii1{
+background:#fff;
+padding:25px 15px 15px 15px;
+border-radius:5px; 
+ }
+/*********************center_home_end****************/
+
+/*********************work****************/
+#work .carousel-indicators {
+bottom: -60px;
+}
+#work .carousel-indicators [data-bs-target] {
+background-color: #DC0E0E;
+}
+.work_2i1:hover{
+ border-color:#FFDA47!important;
+ }
+
+/*********************work_end****************/
+
+/*********************saving****************/
+#quote {
+background-image: url(../img/3.jpg);
+padding-top:300px;
+padding-bottom:300px;
+background-position: center;
+}
+
+.saving_1{
+background:#f4f4f4ed;
+padding:40px 40px 30px 40px;
+border-radius:8px;
+ }
+.saving_1il .nav-tabs {
+border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color: #fff;
+background:#f42272;
+border: none;
+}
+.nav-tabs .nav-link {
+background: #fff;
+border: none;
+border-radius: 5px;
+margin-left: 5px;
+margin-right: 5px;
+font-size: 18px;
+width:100px;
+height:100px;
+color: #000;
+margin-bottom:15px;
+}
+
+.saving_1iril .form-control{
+background:#fff;
+height:45px; 
+ }
+.saving_1iril .form-select {
+height:45px;
+background:#fff;
+}
+.main_2{
+bottom:-220px; 
+ }
+/*********************saving_end****************/
+
+/*********************spec****************/
+#spec{
+padding-top:40px;
+padding-bottom:40px;
+margin-top:220px; 
+ }
+ 
+#testim{
+padding-top:40px;
+padding-bottom:40px;
+background:#f4f4f4;
+ }
+ 
+.connect_1{
+background-color: #f42272;
+padding:40px;
+margin-top:80px;
+margin-left:0;
+margin-right:0;
+border-radius:8px; 
+ }
+/*********************spec_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_h1l h1{
+font-size:36px; 
+ }
+.center_hm {
+padding-top:40px;
+padding-bottom:40px;
+}
+.center_h1l h5{
+margin-bottom:15px!important; 
+ }
+.center_h1rii1{
+margin-top:10px; 
+ }
+.center_h1rior{
+margin-top:10px;  
+ }
+.main_2{
+position:static!important; 
+ }
+#quote{
+display:none; 
+ }
+.saving_1 {
+padding: 40px 15px 30px 15px;
+}
+.saving_1ir{
+margin-top:10px; 
+ }
+.saving_1iril{
+margin-top:10px; 
+ }
+#spec{
+margin-top:0; 
+ }
+.spec_1l{
+text-align:center; 
+ }
+.spec_1r{
+margin-top:15px; 
+ }
+.connect_1{
+padding:40px 15px; 
+ }
+.connect_1r{
+margin-top:15px;  
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.center_h1l h5{
+margin-bottom:15px!important; 
+ }
+.center_h1rii1{
+margin-top:10px; 
+ }
+.center_hm {
+padding-top:40px;
+padding-bottom:40px;
+}
+.spec_1r img{
+height:440px; 
+ }
+.connect_1{
+padding:40px 15px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.spec_1r img{
+height:440px; 
+ }
+ }
